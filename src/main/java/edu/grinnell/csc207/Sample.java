@@ -1,4 +1,4 @@
-package edu.grinnell;
+package edu.grinnell.csc207;
 
 import java.io.PrintWriter;
 
