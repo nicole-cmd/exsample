@@ -27,6 +27,14 @@
     <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>3.3.0</version>
+          <configuration>
+            <mainClass>edu.grinnell.csc207.Sample</mainClass>
+          </configuration>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
           <version>3.4.0</version>
@@ -37,4 +45,5 @@
       </plugins>
     </pluginManagement>
   </build>
+
 </project>
